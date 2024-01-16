@@ -9,7 +9,7 @@ The Texas TriValve 1.1 is a second patient-specific, high fidelity finite elemen
 * The linear bulk viscosity coefficient has been changed to 5.0.
 
 ## Code Description
-We provide Abaqus input files used to run simulations of the healthy and diseased tricuspid valve. For additional details on simulation settings and element choices please refer to the main text. We also include ParaView visualization toolkit files of the valve simulation. This repository includes the following folders: 
+We provide Abaqus input files used to run simulations of the healthy and diseased tricuspid valve. For additional details on simulation settings and element choices please refer to the main text. We also include ParaView visualization toolkit files of the valve simulation including a ParaView state file. After downloading all ParaView files, the state file can be loaded into ParaView to view the deformed valve. This repository includes the following folders: 
 
 * Healthy_QuasiStatic
   * Healthy tricuspid valve modeled from end-diastole to end-systole.
