@@ -2,6 +2,9 @@
 The Texas TriValve 1.1 is a second patient-specific, high fidelity finite element model of the human tricuspid valve. We follow the same approach as described in Mathur et. al. 2022 to build this second unique model, with several important changes from the Texas TriValve 1.0 noted below.
 
 ## Model Updates
+* A second donor tricuspid valve is digitized to inform patient-specific geometry, representing a different valve than the Texas TriValve 1.0.
+* Unique patient-specific material properties are chosen for the anterior, posterior, and septal leaflets and chordae.
+* Updated patient-informed annular boundary conditions.
 * Updated the element formulation to linear quadrilateral reduced-integration shell elements (Abaqus S4R).
 * The finite element mesh represents the valve's midsurface.
 * The friction coefficient has been changed to 0.01.
