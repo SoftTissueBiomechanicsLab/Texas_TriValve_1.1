@@ -1,5 +1,5 @@
 # Texas-TriValve-1.1
-The Texas TriValve 1.1 is a second patient-specific, high fidelity finite element model of the human tricuspid valve. We follow the same approach as described in Mathur et. al. 2022 to build this second unique model, with several important changes from the Texas TriValve 1.0 noted below.
+The Texas TriValve 1.1 is a second patient-specific, high fidelity finite element model of the human tricuspid valve. We follow the same approach as described in [Mathur et. al. 2022](https://link.springer.com/article/10.1007/s00366-022-01659-w) to build this second unique model, with several important changes from the Texas TriValve 1.0 noted below.
 
 ## Model Updates
 * A second donor tricuspid valve is digitized to inform patient-specific geometry, representing a different valve than the Texas TriValve 1.0.
