@@ -32632,11 +32632,11 @@ Ori-2-DiscOrient
 Ori-3-DiscOrient
 3, 0.
 1.000000,0.000000,0.0
-*Shell Section, elset=Septal_Leaflet_Elements,  orientation=Ori-3, material=Septal_Leaflet 
+*Shell Section, elset=Septal_Leaflet_Elements,  orientation=Ori-3, material=VUANISO_ISO_Septal_Leaflet 
 .65,5 
-*Shell Section, elset=Posterior_Leaflet_Elements, orientation=Ori-1, material=Posterior_Leaflet 
+*Shell Section, elset=Posterior_Leaflet_Elements, orientation=Ori-1, material=VUANISO_ISO_Posterior_Leaflet 
 .65,5 
-*Shell Section, elset=Anterior_Leaflet_Elements,  orientation=Ori-2, material=Anterior_Leaflet 
+*Shell Section, elset=Anterior_Leaflet_Elements,  orientation=Ori-2, material=VUANISO_ISO_Anterior_Leaflet 
 .65,5 
 *Solid Section, elset=Anterior_Chordae, material=Anterior_Chordae
 0.35634654, 
@@ -32679,21 +32679,21 @@ coord3D, coord3D
 *Hyperelastic, OGDEN, N=3 
 33.7534784879460, 0.0001531670654, 0.0000145962860, 0.0003488130193, 0.0203430173299,   113.4473866780919, 5.9237e-05, 0
   0.,
-*Material, name=Anterior_Leaflet
+*Material, name=VUANISO_ISO_Anterior_Leaflet
 *Density
 1e-09,
 *anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
 0.001000, 20.066890, 0.000124, 4.568202
 *TRANSVERSE SHEAR
 5.000000e-03,5.000000e-03,0.0
-*Material, name=Posterior_Leaflet
+*Material, name=VUANISO_ISO_Posterior_Leaflet
 *Density
 1e-09,
 *anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
 0.001000, 20.066890, 0.000188, 14.859590
 *TRANSVERSE SHEAR
 5.000000e-03,5.000000e-03,0.0
-*Material, name=Septal_Leaflet
+*Material, name=VUANISO_ISO_Septal_Leaflet
 *Density
 1e-09,
 *anisotropic hyperelastic, user,formulation=invariant, local directions=1, type=compressible, properties=4
