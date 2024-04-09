@@ -177,7 +177,7 @@ c
 c		
         ui1(kb,index_I1) = half * C0 + C1 * C2 * rI1m3 * aux
 c
-        ui2(kb,indx(index_I1,index_I1)) = C1 * C2 * aux * (one + two * rI1m3 * rI1m3)		
+        ui2(kb,indx(index_I1,index_I1)) = C1 * C2 * aux * (one + two * C2 * rI1m3 * rI1m3)	
       end do
 c     
 c     compressible case
